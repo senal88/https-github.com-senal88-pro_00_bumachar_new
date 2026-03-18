@@ -1,4 +1,3 @@
-/* Tailwind config for the frontend react app. This is where the app theme should be defined: https://v2.tailwindcss.com/docs/configuration. */
 import type { Config } from 'tailwindcss'
 import animatePlugin from 'tailwindcss-animate'
 import typographyPlugin from '@tailwindcss/typography'
@@ -26,10 +25,6 @@ export default {
       },
     },
     extend: {
-      fontFamily: {
-        sans: ['Inter var', 'SF Pro Display', 'system-ui', 'sans-serif'],
-        display: ['SF Pro Display', 'Inter var', 'system-ui', 'sans-serif'],
-      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -74,12 +69,16 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
-        chart: {
-          1: 'hsl(var(--chart-1))',
-          2: 'hsl(var(--chart-2))',
-          3: 'hsl(var(--chart-3))',
-          4: 'hsl(var(--chart-4))',
-          5: 'hsl(var(--chart-5))',
+        // Custom Supabase Palette
+        sb: {
+          bg: '#111111',
+          card: '#222222',
+          border: '#333333',
+          green: '#6EE7B7',
+          text: {
+            DEFAULT: '#F0F0F0',
+            muted: '#A0A0A0',
+          },
         },
       },
       borderRadius: {
@@ -87,16 +86,18 @@ export default {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
-      transitionProperty: {
-        width: 'width',
-        height: 'height',
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
-      boxShadow: {
-        subtle: '0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.03)',
-        elevation: '0 4px 20px rgba(0, 0, 0, 0.05)',
+      animation: {
+        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        float: 'float 6s ease-in-out infinite',
       },
-      transitionTimingFunction: {
-        apple: 'cubic-bezier(0.42, 0, 0.58, 1)',
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
       },
     },
   },
