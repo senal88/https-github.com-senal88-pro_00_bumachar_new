@@ -18780,6 +18780,54 @@ var createLucideIcon = (iconName, iconNode) => {
 	Component.displayName = toPascalCase(iconName);
 	return Component;
 };
+var ArrowUpDown = createLucideIcon("arrow-up-down", [
+	["path", {
+		d: "m21 16-4 4-4-4",
+		key: "f6ql7i"
+	}],
+	["path", {
+		d: "M17 20V4",
+		key: "1ejh1v"
+	}],
+	["path", {
+		d: "m3 8 4-4 4 4",
+		key: "11wl7u"
+	}],
+	["path", {
+		d: "M7 4v16",
+		key: "1glfcx"
+	}]
+]);
+var Bot = createLucideIcon("bot", [
+	["path", {
+		d: "M12 8V4H8",
+		key: "hb8ula"
+	}],
+	["rect", {
+		width: "16",
+		height: "12",
+		x: "4",
+		y: "8",
+		rx: "2",
+		key: "enze0r"
+	}],
+	["path", {
+		d: "M2 14h2",
+		key: "vft8re"
+	}],
+	["path", {
+		d: "M20 14h2",
+		key: "4cs60a"
+	}],
+	["path", {
+		d: "M15 13v2",
+		key: "1xurst"
+	}],
+	["path", {
+		d: "M9 13v2",
+		key: "rq6x2g"
+	}]
+]);
 var Box = createLucideIcon("box", [
 	["path", {
 		d: "M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z",
@@ -18815,6 +18863,13 @@ var Circle = createLucideIcon("circle", [["circle", {
 var Cloud = createLucideIcon("cloud", [["path", {
 	d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z",
 	key: "p7xjir"
+}]]);
+var CornerDownLeft = createLucideIcon("corner-down-left", [["path", {
+	d: "M20 4v7a4 4 0 0 1-4 4H4",
+	key: "6o5b7l"
+}], ["path", {
+	d: "m9 10-5 5 5 5",
+	key: "1kshq7"
 }]]);
 var Database = createLucideIcon("database", [
 	["ellipse", {
@@ -18893,6 +18948,10 @@ var Film = createLucideIcon("film", [
 		key: "go4c1d"
 	}]
 ]);
+var Funnel = createLucideIcon("funnel", [["path", {
+	d: "M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z",
+	key: "sc7q7i"
+}]]);
 var Github = createLucideIcon("github", [["path", {
 	d: "M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",
 	key: "tonef"
@@ -18982,9 +19041,22 @@ var MessageSquareMore = createLucideIcon("message-square-more", [
 		key: "1dfujw"
 	}]
 ]);
+var MessageSquare = createLucideIcon("message-square", [["path", {
+	d: "M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z",
+	key: "18887p"
+}]]);
 var MousePointer2 = createLucideIcon("mouse-pointer-2", [["path", {
 	d: "M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z",
 	key: "edeuup"
+}]]);
+var Search = createLucideIcon("search", [["path", {
+	d: "m21 21-4.34-4.34",
+	key: "14j7rj"
+}], ["circle", {
+	cx: "11",
+	cy: "11",
+	r: "8",
+	key: "4ej97u"
 }]]);
 var Settings = createLucideIcon("settings", [["path", {
 	d: "M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915",
@@ -18995,9 +19067,55 @@ var Settings = createLucideIcon("settings", [["path", {
 	r: "3",
 	key: "1v7zrd"
 }]]);
+var Sparkles = createLucideIcon("sparkles", [
+	["path", {
+		d: "M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z",
+		key: "1s2grr"
+	}],
+	["path", {
+		d: "M20 2v4",
+		key: "1rf3ol"
+	}],
+	["path", {
+		d: "M22 4h-4",
+		key: "gwowj6"
+	}],
+	["circle", {
+		cx: "4",
+		cy: "20",
+		r: "2",
+		key: "6kqj1y"
+	}]
+]);
+var TableProperties = createLucideIcon("table-properties", [
+	["path", {
+		d: "M15 3v18",
+		key: "14nvp0"
+	}],
+	["rect", {
+		width: "18",
+		height: "18",
+		x: "3",
+		y: "3",
+		rx: "2",
+		key: "afitv7"
+	}],
+	["path", {
+		d: "M21 9H3",
+		key: "1338ky"
+	}],
+	["path", {
+		d: "M21 15H3",
+		key: "9uk58r"
+	}]
+]);
 var Triangle = createLucideIcon("triangle", [["path", {
 	d: "M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z",
 	key: "14u9p9"
+}]]);
+var Twitter = createLucideIcon("twitter", [["path", {
+	d: "M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z",
+	key: "pff0z6"
 }]]);
 var Wifi = createLucideIcon("wifi", [
 	["path", {
@@ -24042,80 +24160,129 @@ function DatabaseIcon({ className }) {
 		]
 	});
 }
-function Index() {
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-		className: "container mx-auto px-4 py-12 md:py-16",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex flex-col gap-6",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PostgresFeature, {}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StorageFeature, {}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "hidden lg:block h-24" })
-					]
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex flex-col gap-6",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthFeature, {}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RealtimeFeature, {}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(DataApiFeature, {})
-					]
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-					className: "flex flex-col gap-6",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(EdgeFunctionsFeature, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(VectorFeature, {})]
-				})
-			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-			className: "mt-24 mb-12 text-center max-w-4xl mx-auto px-4",
-			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
-				className: "text-3xl md:text-5xl font-bold text-white leading-tight",
-				children: [
-					"Use one or all. ",
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-						className: "text-sb-text-muted",
-						children: "Best of breed products."
-					}),
-					" ",
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-					"Integrated as a platform."
-				]
-			})
-		})]
-	});
-}
-var NotFound = () => {
-	const location = useLocation();
-	(0, import_react.useEffect)(() => {
-		console.error("404 Error: User attempted to access non-existent route:", location.pathname);
-	}, [location.pathname]);
-	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-		className: "min-h-screen flex items-center justify-center bg-gray-100",
+function LlmFeature() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FeatureCard, {
+		icon: Sparkles,
+		title: "Supabase AI",
+		description: "Build AI apps with Edge Functions, Vector embeddings, and integrated LLMs.",
+		className: "lg:row-span-2 min-h-[420px]",
 		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-			className: "text-center",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-					className: "text-4xl font-bold mb-4",
-					children: "404"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-xl text-gray-600 mb-4",
-					children: "Oops! Page not found"
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
-					href: "/",
-					className: "text-blue-500 hover:text-blue-700 underline",
-					children: "Return to Home"
-				})
-			]
+			className: "relative w-full h-full flex flex-col p-4 bg-sb-bg/40 gap-4 justify-between font-sans overflow-hidden",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "flex flex-col gap-4 w-full relative z-10 mt-2",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "self-end bg-sb-card border border-sb-border rounded-2xl rounded-tr-sm p-3 max-w-[85%] shadow-md transform transition-all hover:scale-[1.02]",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2 mb-1",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(MessageSquare, { className: "w-3 h-3 text-sb-text-muted" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-[10px] text-sb-text-muted font-medium",
+							children: "You"
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "text-[11px] text-white leading-relaxed",
+						children: "Generate a Postgres function to calculate user retention over 30 days."
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "self-start flex gap-2 w-[95%]",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "w-6 h-6 mt-1 rounded bg-gradient-to-br from-sb-green to-emerald-600 flex-shrink-0 flex items-center justify-center shadow-[0_0_15px_rgba(110,231,183,0.3)]",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bot, { className: "w-3.5 h-3.5 text-black" })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "bg-transparent rounded-xl p-0 flex-1",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "flex items-center gap-2 mb-2 ml-1",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-[10px] text-sb-green font-medium",
+								children: "Supabase AI"
+							})
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "bg-[#121212] border border-sb-border rounded-lg overflow-hidden shadow-lg",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "flex items-center justify-between px-3 py-1.5 bg-sb-card/80 border-b border-sb-border",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-[9px] font-mono text-sb-text-muted",
+									children: "sql"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+									className: "text-[9px] text-sb-text-muted hover:text-white transition-colors",
+									children: "Copy"
+								})]
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "p-3 bg-[#0a0a0a]",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+									className: "space-y-1.5 font-mono text-[10px]",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+											className: "flex gap-2 whitespace-nowrap",
+											children: [
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-purple-400",
+													children: "CREATE"
+												}),
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-blue-400",
+													children: "OR"
+												}),
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-purple-400",
+													children: "REPLACE"
+												}),
+												" ",
+												/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+													className: "text-blue-400",
+													children: "FUNCTION"
+												})
+											]
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-yellow-300 ml-4",
+											children: "calculate_retention()"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-sb-text-muted",
+											children: "RETURNS table (day int, active_users int) AS $$"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-purple-400 ml-4",
+											children: "BEGIN"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-1.5 w-1/2 bg-sb-border/50 rounded ml-8 mt-2" }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "h-1.5 w-2/3 bg-sb-border/50 rounded ml-8 mt-1.5" }),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-purple-400 ml-4 mt-2",
+											children: "END;"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+											className: "text-sb-text-muted",
+											children: "$$ LANGUAGE plpgsql;"
+										})
+									]
+								})
+							})]
+						})]
+					})]
+				})]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "mt-6 relative z-10",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-t from-sb-bg via-sb-bg to-transparent pointer-events-none -top-12 -bottom-4 z-[-1]" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "relative bg-sb-card border border-sb-border rounded-lg p-2 flex items-center gap-2 shadow-xl ring-1 ring-sb-green/10",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-3.5 h-3.5 text-sb-green ml-1 flex-shrink-0" }),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "flex-1 text-[11px] text-sb-text-muted font-medium opacity-80",
+							children: "Ask Supabase AI..."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+							className: "w-5 h-5 rounded bg-sb-bg border border-sb-border flex items-center justify-center shadow-sm",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(CornerDownLeft, { className: "w-2.5 h-2.5 text-sb-text" })
+						})
+					]
+				})]
+			})]
 		})
 	});
-};
-var NotFound_default = NotFound;
+}
 var REACT_LAZY_TYPE = Symbol.for("react.lazy");
 var use = import_react[" use ".trim().toString()];
 function isPromiseLike(value) {
@@ -24242,6 +24409,581 @@ var Button = import_react.forwardRef(({ className, variant, size: size$3, asChil
 	});
 });
 Button.displayName = "Button";
+var Input = import_react.forwardRef(({ className, type, ...props }, ref) => {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
+		type,
+		className: cn("flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-base ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", className),
+		ref,
+		...props
+	});
+});
+Input.displayName = "Input";
+var Table = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+	className: "relative w-full overflow-auto",
+	children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("table", {
+		ref,
+		className: cn("w-full caption-bottom text-sm", className),
+		...props
+	})
+}));
+Table.displayName = "Table";
+var TableHeader = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("thead", {
+	ref,
+	className: cn("[&_tr]:border-b", className),
+	...props
+}));
+TableHeader.displayName = "TableHeader";
+var TableBody = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tbody", {
+	ref,
+	className: cn("[&_tr:last-child]:border-0", className),
+	...props
+}));
+TableBody.displayName = "TableBody";
+var TableFooter = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tfoot", {
+	ref,
+	className: cn("border-t bg-muted/50 font-medium [&>tr]:last:border-b-0", className),
+	...props
+}));
+TableFooter.displayName = "TableFooter";
+var TableRow = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("tr", {
+	ref,
+	className: cn("border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted", className),
+	...props
+}));
+TableRow.displayName = "TableRow";
+var TableHead = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("th", {
+	ref,
+	className: cn("h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0", className),
+	...props
+}));
+TableHead.displayName = "TableHead";
+var TableCell = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("td", {
+	ref,
+	className: cn("p-4 align-middle [&:has([role=checkbox])]:pr-0", className),
+	...props
+}));
+TableCell.displayName = "TableCell";
+var TableCaption = import_react.forwardRef(({ className, ...props }, ref) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("caption", {
+	ref,
+	className: cn("mt-4 text-sm text-muted-foreground", className),
+	...props
+}));
+TableCaption.displayName = "TableCaption";
+function TableViewerFeature() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "group relative flex flex-col overflow-hidden rounded-xl bg-sb-card border border-sb-border transition-all duration-300 hover:border-sb-green/30 hover:shadow-elevation",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "flex flex-col md:flex-row md:items-center justify-between p-6 border-b border-sb-border bg-sb-card/50",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "max-w-2xl",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex items-center gap-3 mb-2",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "flex h-10 w-10 items-center justify-center rounded-lg bg-sb-bg/50 text-white shadow-sm border border-sb-border",
+						children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableProperties, { className: "h-5 w-5 text-sb-green" })
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
+						className: "text-xl font-bold text-white",
+						children: "Table Editor"
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-sm text-sb-text-muted leading-relaxed",
+					children: "Manage your data like a spreadsheet. A powerful interface to view, edit, and filter your database directly from your dashboard."
+				})]
+			})
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: "flex flex-col flex-1 bg-sb-bg/30 p-4 md:p-6 lg:p-8",
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "rounded-lg border border-sb-border bg-[#181818] overflow-hidden shadow-2xl",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-col sm:flex-row sm:items-center justify-between p-3 border-b border-sb-border bg-sb-card/80 gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Button, {
+							variant: "ghost",
+							size: "sm",
+							className: "h-8 text-xs text-sb-text hover:text-white hover:bg-sb-border bg-sb-bg/50 border border-sb-border",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Database, { className: "w-3.5 h-3.5 mr-2" }), "public.clusters"]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							className: "text-xs text-sb-text-muted px-2 border-l border-sb-border",
+							children: "4 rows"
+						})]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "flex items-center gap-2",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "relative",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "absolute left-2.5 top-1.5 h-3.5 w-3.5 text-sb-text-muted" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Input, {
+									placeholder: "Search records...",
+									className: "h-7 w-[160px] md:w-[220px] pl-8 text-xs bg-sb-bg border-sb-border text-white focus-visible:ring-sb-green/50"
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								variant: "outline",
+								size: "sm",
+								className: "h-7 w-8 p-0 text-sb-text hover:text-white border-sb-border bg-sb-bg",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Funnel, { className: "w-3.5 h-3.5" })
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								variant: "outline",
+								size: "sm",
+								className: "h-7 w-8 p-0 text-sb-text hover:text-white border-sb-border bg-sb-bg",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ArrowUpDown, { className: "w-3.5 h-3.5" })
+							})
+						]
+					})]
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "overflow-x-auto custom-scrollbar",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Table, {
+						className: "w-full min-w-[700px]",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableHeader, {
+							className: "bg-sb-bg/80 sticky top-0 z-10",
+							children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableRow, {
+								className: "border-sb-border hover:bg-transparent",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableHead, { className: "w-[40px] text-center text-[11px] h-8 border-r border-sb-border text-sb-text-muted bg-sb-card/20" }),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableHead, {
+										className: "text-[11px] h-8 border-r border-sb-border font-medium text-sb-text-muted group/th hover:bg-sb-card/40 cursor-pointer transition-colors",
+										children: [
+											"id",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[9px] text-sb-text-muted/50 font-mono ml-1",
+												children: "uuid"
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableHead, {
+										className: "text-[11px] h-8 border-r border-sb-border font-medium text-sb-text-muted group/th hover:bg-sb-card/40 cursor-pointer transition-colors",
+										children: [
+											"created_at",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[9px] text-sb-text-muted/50 font-mono ml-1",
+												children: "timestamptz"
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableHead, {
+										className: "text-[11px] h-8 border-r border-sb-border font-medium text-sb-text-muted group/th hover:bg-sb-card/40 cursor-pointer transition-colors",
+										children: [
+											"name",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[9px] text-sb-text-muted/50 font-mono ml-1",
+												children: "text"
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableHead, {
+										className: "text-[11px] h-8 border-r border-sb-border font-medium text-sb-text-muted group/th hover:bg-sb-card/40 cursor-pointer transition-colors",
+										children: [
+											"status",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[9px] text-sb-text-muted/50 font-mono ml-1",
+												children: "varchar"
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableHead, {
+										className: "text-[11px] h-8 font-medium text-sb-text-muted group/th hover:bg-sb-card/40 cursor-pointer transition-colors",
+										children: [
+											"size",
+											" ",
+											/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+												className: "text-[9px] text-sb-text-muted/50 font-mono ml-1",
+												children: "int8"
+											})
+										]
+									})
+								]
+							})
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableBody, { children: [
+							{
+								id: "a1b2c3d4-1",
+								date: "2023-10-12T14:20:00Z",
+								name: "Production DB",
+								status: "Active",
+								size: "1024 GB"
+							},
+							{
+								id: "e5f6g7h8-2",
+								date: "2023-11-05T09:15:30Z",
+								name: "Staging Cluster",
+								status: "Maintenance",
+								size: "256 GB"
+							},
+							{
+								id: "i9j0k1l2-3",
+								date: "2024-01-20T16:45:10Z",
+								name: "Analytics Replica",
+								status: "Active",
+								size: "2048 GB"
+							},
+							{
+								id: "m3n4o5p6-4",
+								date: "2024-02-14T08:00:00Z",
+								name: "Dev Env 1",
+								status: "Paused",
+								size: "10 GB"
+							}
+						].map((row, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(TableRow, {
+							className: "border-sb-border hover:bg-sb-card/40 transition-colors group/row",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-center text-[10px] text-sb-text-muted/60 border-r border-sb-border bg-sb-card/10 select-none",
+									children: i + 1
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-[11px] font-mono text-sb-text-muted border-r border-sb-border",
+									children: row.id
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-[11px] text-sb-text-muted border-r border-sb-border whitespace-nowrap font-mono",
+									children: new Date(row.date).toLocaleString("en-US", {
+										month: "short",
+										day: "numeric",
+										year: "numeric",
+										hour: "numeric",
+										minute: "2-digit"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-[11px] text-white border-r border-sb-border font-medium",
+									children: row.name
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-[11px] border-r border-sb-border",
+									children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+										className: `inline-flex items-center px-1.5 py-0.5 rounded-full text-[9px] font-medium leading-none ${row.status === "Active" ? "bg-sb-green/10 text-sb-green border border-sb-green/20" : row.status === "Paused" ? "bg-sb-text-muted/10 text-sb-text-muted border border-sb-text-muted/20" : "bg-yellow-500/10 text-yellow-500 border border-yellow-500/20"}`,
+										children: [
+											row.status === "Active" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1 h-1 rounded-full bg-sb-green mr-1.5" }),
+											row.status === "Maintenance" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1 h-1 rounded-full bg-yellow-500 mr-1.5" }),
+											row.status === "Paused" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "w-1 h-1 rounded-full bg-sb-text-muted mr-1.5" }),
+											row.status
+										]
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableCell, {
+									className: "py-2 text-[11px] text-sb-text-muted text-right pr-4 font-mono",
+									children: row.size
+								})
+							]
+						}, row.id)) })]
+					})
+				})]
+			})
+		})]
+	});
+}
+function Index() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "flex flex-col min-h-screen",
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "container mx-auto px-4 py-8 md:py-12 flex-1",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex flex-col items-center text-center mt-12 mb-20 md:mt-24 md:mb-32 max-w-5xl mx-auto px-4",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sb-card border border-sb-border text-sm font-medium mb-8 hover:bg-sb-border/50 transition-colors cursor-pointer group animate-fade-in-up",
+							style: { animationDelay: "0ms" },
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "text-sb-green flex items-center gap-1.5",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Sparkles, { className: "w-4 h-4" }), "New"]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "text-sb-text h-4 w-px bg-sb-border mx-1" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+									className: "text-white flex items-center gap-1 group-hover:text-sb-green transition-colors",
+									children: [
+										"Supabase AI is now generally available",
+										" ",
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "w-4 h-4" })
+									]
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", {
+							className: "text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6 leading-[1.1] animate-fade-in-up",
+							style: { animationDelay: "100ms" },
+							children: [
+								"Build in a weekend. ",
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+									className: "text-transparent bg-clip-text bg-gradient-to-r from-sb-green to-emerald-500 drop-shadow-[0_0_15px_rgba(110,231,183,0.3)]",
+									children: "Scale to millions."
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "text-lg md:text-xl text-sb-text-muted mb-10 max-w-2xl leading-relaxed animate-fade-in-up",
+							style: { animationDelay: "200ms" },
+							children: "Supabase is an open source Firebase alternative. Start your project with a Postgres database, Authentication, instant APIs, Edge Functions, Realtime subscriptions, Storage, and Vector embeddings."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-col sm:flex-row gap-4 w-full sm:w-auto animate-fade-in-up",
+							style: { animationDelay: "300ms" },
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								size: "lg",
+								className: "bg-sb-green text-black hover:bg-sb-green/90 font-semibold h-12 px-8 text-base",
+								children: "Start your project"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Button, {
+								size: "lg",
+								variant: "outline",
+								className: "border-sb-border bg-transparent text-white hover:bg-sb-card hover:text-white h-12 px-8 text-base",
+								children: "Documentation"
+							})]
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mb-8 md:mb-12 animate-fade-in",
+					style: { animationDelay: "500ms" },
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(TableViewerFeature, {})
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-24 animate-fade-in",
+					style: { animationDelay: "600ms" },
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-col gap-6",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(PostgresFeature, {}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StorageFeature, {}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(VectorFeature, {})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-col gap-6",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(AuthFeature, {}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(RealtimeFeature, {}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)(DataApiFeature, {})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex flex-col gap-6",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(LlmFeature, {}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(EdgeFunctionsFeature, {})]
+						})
+					]
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+					className: "mt-20 mb-16 text-center max-w-4xl mx-auto px-4",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", {
+						className: "text-3xl md:text-5xl font-bold text-white leading-tight",
+						children: [
+							"Use one or all. ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+								className: "text-sb-text-muted",
+								children: "Best of breed products."
+							}),
+							" ",
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+							"Integrated as a platform."
+						]
+					})
+				})
+			]
+		}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
+			className: "border-t border-sb-border bg-sb-card/30 pt-16 pb-12 mt-12",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-12",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+						className: "col-span-2",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex items-center gap-2 text-xl font-bold text-white mb-6",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+								className: "flex h-6 w-6 items-center justify-center rounded bg-sb-card text-sb-green",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Triangle, { className: "h-4 w-4 fill-current" })
+							}), "supabase"]
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+							className: "flex gap-4",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "text-sb-text-muted hover:text-white transition-colors",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Twitter, { className: "h-5 w-5" })
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "text-sb-text-muted hover:text-white transition-colors",
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Github, { className: "h-5 w-5" })
+							})]
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+						className: "text-white font-medium mb-4 text-sm",
+						children: "Product"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "space-y-3 text-sm text-sb-text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Database"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Authentication"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Storage"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Edge Functions"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Realtime"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Vector"
+							}) })
+						]
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+						className: "text-white font-medium mb-4 text-sm",
+						children: "Resources"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "space-y-3 text-sm text-sb-text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Support"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "System Status"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Become a Partner"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Integrations"
+							}) })
+						]
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+						className: "text-white font-medium mb-4 text-sm",
+						children: "Developers"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "space-y-3 text-sm text-sb-text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Documentation"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Changelog"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Contributing"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Open Source"
+							}) })
+						]
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", {
+						className: "text-white font-medium mb-4 text-sm",
+						children: "Company"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("ul", {
+						className: "space-y-3 text-sm text-sb-text-muted",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Blog"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Careers"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Company"
+							}) }),
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+								href: "#",
+								className: "hover:text-white transition-colors",
+								children: "Terms of Service"
+							}) })
+						]
+					})] })
+				]
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+				className: "container mx-auto px-4 pt-8 border-t border-sb-border flex flex-col md:flex-row items-center justify-between gap-4",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-sm text-sb-text-muted",
+					children: "© 2024 Supabase Clone Inc."
+				}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+					className: "flex gap-4 text-sm text-sb-text-muted",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: "#",
+						className: "hover:text-white transition-colors",
+						children: "Privacy Policy"
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: "#",
+						className: "hover:text-white transition-colors",
+						children: "Terms of Service"
+					})]
+				})]
+			})]
+		})]
+	});
+}
+var NotFound = () => {
+	const location = useLocation();
+	(0, import_react.useEffect)(() => {
+		console.error("404 Error: User attempted to access non-existent route:", location.pathname);
+	}, [location.pathname]);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+		className: "min-h-screen flex items-center justify-center bg-gray-100",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "text-center",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+					className: "text-4xl font-bold mb-4",
+					children: "404"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "text-xl text-gray-600 mb-4",
+					children: "Oops! Page not found"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+					href: "/",
+					className: "text-blue-500 hover:text-blue-700 underline",
+					children: "Return to Home"
+				})
+			]
+		})
+	});
+};
+var NotFound_default = NotFound;
 var DirectionContext = import_react.createContext(void 0);
 function useDirection(localDir) {
 	const globalDir = import_react.useContext(DirectionContext);
@@ -27214,4 +27956,4 @@ var App = () => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BrowserRouter, {
 var App_default = App;
 (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App_default, {}));
 
-//# sourceMappingURL=index-DvJj-6uY.js.map
+//# sourceMappingURL=index-77QUtet0.js.map
