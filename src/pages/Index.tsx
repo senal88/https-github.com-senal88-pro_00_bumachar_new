@@ -7,8 +7,10 @@ import { VectorFeature } from '@/components/features/VectorFeature'
 import { DataApiFeature } from '@/components/features/DataApiFeature'
 import { LlmFeature } from '@/components/features/LlmFeature'
 import { TableViewerFeature } from '@/components/features/TableViewerFeature'
+import { ProfessionalWorkspace } from '@/components/ProfessionalWorkspace'
+import { Footer } from '@/components/Footer'
 import { Button } from '@/components/ui/button'
-import { Sparkles, ChevronRight, Triangle, Github, Twitter } from 'lucide-react'
+import { Sparkles, ChevronRight } from 'lucide-react'
 
 export default function Index() {
   return (
@@ -25,10 +27,13 @@ export default function Index() {
               New
             </span>
             <span className="text-sb-text h-4 w-px bg-sb-border mx-1" />
-            <span className="text-white flex items-center gap-1 group-hover:text-sb-green transition-colors">
-              Supabase AI is now generally available{' '}
+            <a
+              href="#professional-workspace"
+              className="text-white flex items-center gap-1 group-hover:text-sb-green transition-colors"
+            >
+              Professional Planning Workspace is live{' '}
               <ChevronRight className="w-4 h-4" />
-            </span>
+            </a>
           </div>
           <h1
             className="text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6 leading-[1.1] animate-fade-in-up"
@@ -43,9 +48,9 @@ export default function Index() {
             className="text-lg md:text-xl text-sb-text-muted mb-10 max-w-2xl leading-relaxed animate-fade-in-up"
             style={{ animationDelay: '200ms' }}
           >
-            Supabase is an open source Firebase alternative. Start your project
-            with a Postgres database, Authentication, instant APIs, Edge
-            Functions, Realtime subscriptions, Storage, and Vector embeddings.
+            An open source Firebase alternative tailored for powerful backend
+            integrations. Start your project with a Postgres database,
+            Authentication, instant APIs, and robust quantitative tools.
           </p>
           <div
             className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto animate-fade-in-up"
@@ -60,9 +65,10 @@ export default function Index() {
             <Button
               size="lg"
               variant="outline"
+              asChild
               className="border-sb-border bg-transparent text-white hover:bg-sb-card hover:text-white h-12 px-8 text-base"
             >
-              Documentation
+              <a href="#professional-workspace">Explore Planning</a>
             </Button>
           </div>
         </div>
@@ -80,28 +86,22 @@ export default function Index() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-24 animate-fade-in"
           style={{ animationDelay: '600ms' }}
         >
-          {/* Column 1 */}
           <div className="flex flex-col gap-6">
             <PostgresFeature />
             <StorageFeature />
             <VectorFeature />
           </div>
-
-          {/* Column 2 */}
           <div className="flex flex-col gap-6">
             <AuthFeature />
             <RealtimeFeature />
             <DataApiFeature />
           </div>
-
-          {/* Column 3 */}
           <div className="flex flex-col gap-6">
             <LlmFeature />
             <EdgeFunctionsFeature />
           </div>
         </div>
 
-        {/* Bottom Text */}
         <div className="mt-20 mb-16 text-center max-w-4xl mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
             Use one or all. <br />
@@ -114,160 +114,8 @@ export default function Index() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="border-t border-sb-border bg-sb-card/30 pt-16 pb-12 mt-12">
-        <div className="container mx-auto px-4 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 mb-12">
-          <div className="col-span-2">
-            <div className="flex items-center gap-2 text-xl font-bold text-white mb-6">
-              <div className="flex h-6 w-6 items-center justify-center rounded bg-sb-card text-sb-green">
-                <Triangle className="h-4 w-4 fill-current" />
-              </div>
-              supabase
-            </div>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-sb-text-muted hover:text-white transition-colors"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="#"
-                className="text-sb-text-muted hover:text-white transition-colors"
-              >
-                <Github className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
-
-          <div>
-            <h4 className="text-white font-medium mb-4 text-sm">Product</h4>
-            <ul className="space-y-3 text-sm text-sb-text-muted">
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Database
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Authentication
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Storage
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Edge Functions
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Realtime
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Vector
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-medium mb-4 text-sm">Resources</h4>
-            <ul className="space-y-3 text-sm text-sb-text-muted">
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Support
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  System Status
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Become a Partner
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Integrations
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-medium mb-4 text-sm">Developers</h4>
-            <ul className="space-y-3 text-sm text-sb-text-muted">
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Changelog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Contributing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Open Source
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-medium mb-4 text-sm">Company</h4>
-            <ul className="space-y-3 text-sm text-sb-text-muted">
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Company
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-white transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="container mx-auto px-4 pt-8 border-t border-sb-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-sb-text-muted">
-            © 2024 Supabase Clone Inc.
-          </p>
-          <div className="flex gap-4 text-sm text-sb-text-muted">
-            <a href="#" className="hover:text-white transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Terms of Service
-            </a>
-          </div>
-        </div>
-      </footer>
+      <ProfessionalWorkspace />
+      <Footer />
     </div>
   )
 }
